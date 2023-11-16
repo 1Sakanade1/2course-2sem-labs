@@ -1,0 +1,11 @@
+D:\code\labs\FORMS\Lab02f\Lab02f\bin\Debug\Lab02f.exe.config
+D:\code\labs\FORMS\Lab02f\Lab02f\bin\Debug\Lab02f.exe
+D:\code\labs\FORMS\Lab02f\Lab02f\bin\Debug\Lab02f.pdb
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.csproj.AssemblyReference.cache
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.csproj.SuggestedBindingRedirects.cache
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.Form1.resources
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.Properties.Resources.resources
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.csproj.GenerateResource.cache
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.csproj.CoreCompileInputs.cache
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.exe
+D:\code\labs\FORMS\Lab02f\Lab02f\obj\Debug\Lab02f.pdb

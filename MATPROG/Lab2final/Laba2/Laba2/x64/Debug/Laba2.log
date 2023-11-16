@@ -1,0 +1,9 @@
+﻿  Auxil.cpp
+c1xx : fatal  error C1083: Не удается открыть файл источник: ..\..\..\Lab2f\Auxil.cpp: No such file or directory,
+  Combi.cpp
+c1xx : fatal  error C1083: Не удается открыть файл источник: ..\..\..\Lab2f\Combi.cpp: No such file or directory,
+  Knapsack.cpp
+c1xx : fatal  error C1083: Не удается открыть файл источник: ..\..\..\Lab2f\Knapsack.cpp: No such file or directory,
+  Laba2.cpp
+D:\code\labs\MATPROG\Lab2final\Laba2\Laba2\Laba2.cpp(2,10): fatal  error C1083: Не удается открыть файл включение: stdafx.h: No such file or directory,
+  Создание кода...

@@ -1,0 +1,4 @@
+﻿  laba2.cpp
+C:\Users\USER\Desktop\labs\4сем\мп\laba2\laba2\laba2.cpp(77,19): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\USER\Desktop\labs\4сем\мп\laba2\laba2\laba2.cpp(88,22): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  laba2.vcxproj -> C:\Users\USER\Desktop\labs\4сем\мп\laba2\Debug\laba2.exe

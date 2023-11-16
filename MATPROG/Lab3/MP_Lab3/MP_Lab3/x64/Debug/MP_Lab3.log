@@ -1,0 +1,6 @@
+﻿  MP_Lab3.cpp
+  Salesman.cpp
+D:\code\labs\MATPROG\MP-4-sem-main\MP_Lab3\MP_Lab3\Salesman.cpp(53,8): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\code\labs\MATPROG\MP-4-sem-main\MP_Lab3\MP_Lab3\Salesman.cpp(61,16): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода...
+  MP_Lab3.vcxproj -> D:\code\labs\MATPROG\MP-4-sem-main\MP_Lab3\x64\Debug\MP_Lab3.exe

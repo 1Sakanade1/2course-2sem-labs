@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+    <v:String x:Key="m_Price:">price:</v:String>
+    <v:String x:Key="m_TovarName:">name:</v:String>
+    <v:String x:Key="m_Description:">description:</v:String>
+    <v:String x:Key="m_Tovari:">products</v:String>
+    <v:String x:Key="m_Controls:">Controls</v:String>
+    <v:String x:Key="m_AddElem:">Add element</v:String>
+    <v:String x:Key="m_Add:">Add</v:String>
+    <v:String x:Key="m_DeleteElem:">Delete element</v:String>
+    <v:String x:Key="m_ChangeElem:">Change Element</v:String>
+    <v:String x:Key="m_Cancel:">Cancel</v:String>
+    <v:String x:Key="m_Delete:">Delete</v:String>
+    <v:String x:Key="m_Change:">Change</v:String>
+    <v:String x:Key="m_TovarNameAdd:">product name</v:String>
+    <v:String x:Key="m_TovarNameToChange:">product name to change</v:String>
+    <v:String x:Key="m_TovarNameToDelete:">product name to delete</v:String>
+    <v:String x:Key="m_TovarDescription:">product description</v:String>
+    <v:String x:Key="m_TovarImageLink:">product image link</v:String>
+    <v:String x:Key="m_TovarPrice:">product price</v:String>
+    <v:String x:Key="m_ChangeLocalization:">Change localization</v:String>
+    <v:String x:Key="m_ChangeTheme:">Change theme</v:String>
+    <v:String x:Key="m_Undo:">Undo</v:String>
+    <v:String x:Key="m_Redo:">Redo</v:String>
+    <v:String x:Key="m_OpenPresentationWindow:">Open presentation window</v:String>
+
+
+</ResourceDictionary>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19.0.2" class="java.beans.XMLDecoder">
+ <object class="by.belstu.it.markovich.ITCompany.Person" id="Person0">
+  <void class="by.belstu.it.markovich.ITCompany.Person" method="getField">
+   <string>name</string>
+   <void method="set">
+    <object idref="Person0"/>
+    <string>Aleksei</string>
+   </void>
+  </void>
+  <void class="by.belstu.it.markovich.ITCompany.Person" method="getField">
+   <string>age</string>
+   <void method="set">
+    <object idref="Person0"/>
+    <int>22</int>
+   </void>
+  </void>
+  <void class="by.belstu.it.markovich.ITCompany.Person" method="getField">
+   <string>gender</string>
+   <void method="set">
+    <object idref="Person0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>by.belstu.it.markovich.ITCompany.gender</class>
+     <string>male</string>
+    </object>
+   </void>
+  </void>
+  <void class="by.belstu.it.markovich.ITCompany.Person" method="getField">
+   <string>pos</string>
+   <void method="set">
+    <object idref="Person0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>by.belstu.it.markovich.ITCompany.position</class>
+     <string>junior</string>
+    </object>
+   </void>
+  </void>
+  <void class="by.belstu.it.markovich.ITCompany.Person" method="getField">
+   <string>salary</string>
+   <void method="set">
+    <object idref="Person0"/>
+    <int>1300</int>
+   </void>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,33 @@
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\bin\Debug\lab1_f.exe.config
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\bin\Debug\lab1_f.exe
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\bin\Debug\lab1_f.pdb
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.AssemblyReference.cache
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.SuggestedBindingRedirects.cache
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.Form1.resources
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.Properties.Resources.resources
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.GenerateResource.cache
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.CoreCompileInputs.cache
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.exe
+C:\Container\code\2курс 2 сем лабы\forms\lab1_f\lab1_f\obj\Debug\lab1_f.pdb
+C:\Container\code\labs\forms\lab1_f\lab1_f\bin\Debug\lab1_f.exe.config
+C:\Container\code\labs\forms\lab1_f\lab1_f\bin\Debug\lab1_f.exe
+C:\Container\code\labs\forms\lab1_f\lab1_f\bin\Debug\lab1_f.pdb
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.AssemblyReference.cache
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.SuggestedBindingRedirects.cache
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.Properties.Resources.resources
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.GenerateResource.cache
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.CoreCompileInputs.cache
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.exe
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.pdb
+C:\Container\code\labs\forms\lab1_f\lab1_f\obj\Debug\lab1_f.Form1.resources
+D:\code\labs\FORMS\lab1_f\lab1_f\bin\Debug\lab1_f.exe.config
+D:\code\labs\FORMS\lab1_f\lab1_f\bin\Debug\lab1_f.exe
+D:\code\labs\FORMS\lab1_f\lab1_f\bin\Debug\lab1_f.pdb
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.AssemblyReference.cache
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.SuggestedBindingRedirects.cache
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.Form1.resources
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.Properties.Resources.resources
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.GenerateResource.cache
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.csproj.CoreCompileInputs.cache
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.exe
+D:\code\labs\FORMS\lab1_f\lab1_f\obj\Debug\lab1_f.pdb

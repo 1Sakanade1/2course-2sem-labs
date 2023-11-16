@@ -1,0 +1,21 @@
+﻿<Application x:Class="Lab_56_shop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Lab_56_shop"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="D:\code\labs\WPF\Lab_56_shop\Lab_56_shop\Styles.xaml"/>
+                <ResourceDictionary Source="D:\code\labs\WPF\Lab_56_shop\Lab_56_shop\RusDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+
+
+
+        
+        
+    </Application.Resources>
+</Application>

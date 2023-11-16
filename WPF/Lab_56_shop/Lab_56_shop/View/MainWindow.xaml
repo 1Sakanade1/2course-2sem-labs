@@ -1,0 +1,157 @@
+﻿<Window x:Name="MainPage" x:Class="Lab_56_shop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_56_shop"
+        mc:Ignorable="d"
+        Title="ShopRedactorMainWindow" Height="1080" Width="1919.8"
+        Icon="D:\code\labs\WPF\Lab_56_shop\icons\shop.png"
+        Cursor="D:\code\labs\WPF\Lab_56_shop\icons\Cursor.cur"
+        Style="{DynamicResource WindowTheme}">
+
+
+    <!--<Window.Resources>
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+
+       </Style>
+        
+    </Window.Resources>-->
+
+
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300px"/>
+            <ColumnDefinition MinWidth="220" Width="8*"/>
+            <ColumnDefinition  Width="40*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40px"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid  x:Name="TopButtonsPanel" Grid.Column="0"  Grid.ColumnSpan="3" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Background="White"  Height="auto"  BorderThickness="0"
+                CornerRadius="0 0 5 5">
+                <StackPanel Orientation="Horizontal">
+                    <local:UserControlElement />
+                    <Button Command="{Binding DataContext.Search, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" Background="Transparent" BorderBrush="black">
+                        <Image Source="D:\code\labs\WPF\Lab_56_shop\icons\magnifier.png"></Image>
+                    </Button>
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+
+
+
+        <Grid   x:Name="GoodsCatalog"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="30">
+            
+            
+            
+            
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50px"/>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Grid.ColumnSpan="2" >
+                <Border Background="WHITE" CornerRadius="15 15 0 0 ">
+                    <Label Style="{DynamicResource TopLabelStyle}"  Content="{DynamicResource m_Controls:}">
+
+                    </Label>
+                </Border>
+
+            </Grid>
+
+            <Border  Grid.Row="1" Background="White" Width="auto" Height="auto"  >
+                <WrapPanel x:Name="TovariMain" Orientation="Horizontal" HorizontalAlignment="Left">
+
+                    <Button Command="{Binding DataContext.OpenAddWindow, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource AddButtonStyle}" Width="350" Height="40" Cursor="Hand"/>
+                    <Button Command="{Binding DataContext.OpenDeleteWindow, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource DeleteButtonStyle}" Width="350" Height="40" Cursor="Hand"/>
+                    <Button Command="{Binding DataContext.OpenUpdateWindow, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource ChangeButtonStyle}" Width="350" Height="40" Cursor="Hand"/>
+                    <Button  VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource ChangeLocalizationButtonStyle}" Width="350" Height="40" Cursor="Hand" Click="Button_Click"/>
+                    <Button Command="{Binding DataContext.ChangeTheme, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource ChangeThemeButtonStyle}" Width="350" Height="40" Cursor="Hand"/>
+                    <Button Command="{Binding DataContext.OpenPresentationWindow, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource OpenPresentationWindowButtonStyle}" Width="350" Height="40" Cursor="Hand"/>
+                    <Button Command="{Binding DataContext.OpenLab7Task, Mode=OneWay, RelativeSource={RelativeSource AncestorType = Window}}" CommandParameter="{Binding ElementName=MainPage}" VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource Open7labButtonStyle}" Width="350" Height="40" Cursor="Hand"/>
+                    <Button VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource UndoButtonStyle}" Width="150" Height="40" Cursor="Hand" Click="Button_Click"/>
+                    <Button VerticalAlignment="Top" Margin="50 35 0 0 "  Style="{DynamicResource RedoButtonStyle}" Width="150" Height="40" Cursor="Hand" Click="Button_Click"/>
+ 
+                </WrapPanel>
+            </Border>
+        </Grid>
+
+        <Grid  x:Name="JointStockGoods"  Grid.Row="1" HorizontalAlignment="Center" Grid.Column="2"  Margin="0 30 0 30" Width="Auto"  >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50px"/>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" >
+                <Border Background="WHITE" CornerRadius="15 15 0 0 ">
+                    <Label Style="{DynamicResource TopLabelStyle}"  Content="{DynamicResource m_Tovari:}">
+                    
+                    </Label>
+                </Border>
+
+            </Grid>
+
+            <ListView x:Name="listviewProducts"  Grid.Row="2">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn   Width="500">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <TextBlock  TextWrapping="Wrap">
+                                        <Run Style="{DynamicResource TovarNameRunStyle}" Text="{DynamicResource m_TovarName:}"></Run>
+                                        <Run Style="{DynamicResource TovarNameRunStyle}" Text="{Binding Path=product_name}" ></Run>
+
+                                        </TextBlock>
+                                        <TextBlock x:Name="description" TextWrapping="Wrap" Text="zz">
+                                        <Run  Style="{DynamicResource TovarDescriptionRunStyle}" Text="{DynamicResource m_Description:}"></Run>
+                                        <Run Style="{DynamicResource TovarDescriptionRunStyle}" Text="{Binding Path=product_description}" ></Run>
+                                        </TextBlock>
+                                        <TextBlock TextWrapping="Wrap">
+                                        <Run Style="{DynamicResource TovarPriceRunStyle}" Text="{DynamicResource m_Price:}"></Run>
+                                        <Run Style="{DynamicResource TovarPriceRunStyle}" Text="{Binding Path=price}"></Run>
+                                        </TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn  Width="200">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding Path=imagepath}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+
+        </Grid>
+
+
+    </Grid>
+
+
+
+
+
+</Window>

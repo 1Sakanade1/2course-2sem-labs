@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="guicedee.services.jakarta.servlet.jsp.api" type="repository">
+    <properties maven-id="com.guicedee.services:jakarta.servlet.jsp-api:1.1.1.0-jre8" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.servlet.jsp-api/1.1.1.0-jre8/jakarta.servlet.jsp-api-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.el/1.1.1.0-jre8/jakarta.el-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/servlets/guiced-servlets/1.1.1.0-jre8/guiced-servlets-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/guiced-injection/1.1.1.0-jre8/guiced-injection-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/classgraph/classgraph/4.8.102/classgraph-4.8.102.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/guice/1.1.1.0-jre8/guice-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.inject/1.1.1.0-jre8/javax.inject-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/guava/1.1.1.0-jre8/guava-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.annotation-api/1.1.1.0-jre8/jakarta.annotation-api-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/commons-lang3/1.1.1.0-jre8/commons-lang3-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.1/jackson-datatype-jdk8-2.12.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.xml.bind-api/1.1.1.0-jre8/jakarta.xml.bind-api-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.activation/1.1.1.0-jre8/jakarta.activation-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.activation/1.1.1.0-jre8/javax.activation-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/2.0.0/stax-ex-2.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/guice-servlet/1.1.1.0-jre8/guice-servlet-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/aopalliance-core/1.1.1.0-jre8/aopalliance-core-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/guiced-log-master/1.1.1.0-jre8/guiced-log-master-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.validation-api/1.1.1.0-jre8/jakarta.validation-api-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.servlet-api/1.1.1.0-jre8/jakarta.servlet-api-1.1.1.0-jre8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/commons-io/1.1.1.0-jre8/commons-io-1.1.1.0-jre8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
