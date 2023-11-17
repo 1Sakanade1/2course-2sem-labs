@@ -1,9 +1,0 @@
-transaction to JDBC:MSSQL//localhost:3306;databasename=library;username=root;password=root;
-
-select * FROM books;
-
-select * from author;
-
-INSERT INTO `books`(`Name`, `Author_Name`, `Year_of_publishing`, `Publisher`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]');
-
-transaction.commit();
